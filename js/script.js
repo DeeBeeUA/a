@@ -1,6 +1,6 @@
 'use strict';
 
-const user = prompt('Как тебя зовут?', '');
+const isChecked = true,
+      isClose = true;
 
-alert(`Привет, ${user}!`);
-
+console.log(isChecked && isClose);
